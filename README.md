@@ -2,22 +2,25 @@
 
 *This is final project for my "Intro to Database" course.*
 
+**Language**
++ Python
++ MySQL
 
 ------
 
 **Problem Statement:**
-
 Our idea is to create an inventory management system in order to help small
 business’s owner to stay on track with their current inventory of the product.
 
 Therefore, we need database system to control the backend information
+
 
 ------
 **Database Structure**
 
 Our database will consist of two portions: data that represent the employees information and data that represents the product information.
 
-The ``Store`` entity is a store, with attributes *store_id*, *store_phone*, *store_address*, *store_manager* and *inventory*. 
+The ``Store`` entity is a store, with attributes *store_id*, *store_phone*, *store_address*, *store_manager* and *inventory*.
 
 The ``Store`` entity contains two relationships, **Sells** and **Work For**. The relationship **Sell** will connect ``store`` entity to ``Product`` entity and **Work For** will connect ``employee`` entity. 
 
@@ -25,6 +28,11 @@ The ``Store`` entity contains two relationships, **Sells** and **Work For**. The
 
 ``Employee`` entity is an entity containing attributes of employee’s information which is, *Employee_ID*, *Name*, *SSN*, *Phone*, *Address*. ``Employee`` entity also connects to 3 other weak entities, ``Manager``, ``Accounting`` and ``Worker``, they all have the same attribute which is *Employee_ID*. There is an ``emergency contact`` entity under ``employee`` which contains 2 attributes: *phone* and *name*.
 
+------
+
+Sources code
+
+![image]()
 
 ------
 
@@ -38,7 +46,7 @@ The ``Store`` entity contains two relationships, **Sells** and **Work For**. The
 	•	To add, simple type in the blank the information of the product, then click edit inventory. If there exists the same product id, it will pop up a warning that there’s duplicated value. Otherwise, it will add a new product in the database.
 	•	When users click the search button, it will list all the data stored in the database.
 
-
+![image]()
 
 
 •	Inventory
@@ -47,7 +55,7 @@ The ``Store`` entity contains two relationships, **Sells** and **Work For**. The
 	•	It has a filter function which allows users to check all inventory at certain store.
 	•	To use the filter function, click the down arrow and select the store you want. The result will show all the products at that store.
 
-
+![image]()
 
 •	Employee:
 
@@ -57,6 +65,7 @@ The ``Store`` entity contains two relationships, **Sells** and **Work For**. The
 	•	To search, click the search button. When users click the search button, it will list all the data stored in the database.
 	•	To add, like for product, simple type in the blank the information of the employee, then click add new If there exists the same employee id, it will pop up a warning. Otherwise, it will add a new employee in the database.
 
+![image]()
 
 -----
 
