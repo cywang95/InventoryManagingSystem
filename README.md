@@ -30,9 +30,9 @@ The ``Store`` entity contains two relationships, **Sells** and **Work For**. The
 
 ------
 
-Sources code
+**Sources code**
 
-![image]()
+![image](https://github.com/cywang95/InventoryManagingSystem/blob/main/CodeFile/TestImages/SOURECODE.png?raw=true)
 
 ------
 
@@ -46,7 +46,7 @@ Sources code
 	•	To add, simple type in the blank the information of the product, then click edit inventory. If there exists the same product id, it will pop up a warning that there’s duplicated value. Otherwise, it will add a new product in the database.
 	•	When users click the search button, it will list all the data stored in the database.
 
-![image]()
+![image](https://github.com/cywang95/InventoryManagingSystem/blob/main/CodeFile/TestImages/Product.png?raw=true)
 
 
 •	Inventory
@@ -55,7 +55,7 @@ Sources code
 	•	It has a filter function which allows users to check all inventory at certain store.
 	•	To use the filter function, click the down arrow and select the store you want. The result will show all the products at that store.
 
-![image]()
+![image](https://github.com/cywang95/InventoryManagingSystem/blob/main/CodeFile/TestImages/inventory.png?raw=true)
 
 •	Employee:
 
@@ -65,7 +65,7 @@ Sources code
 	•	To search, click the search button. When users click the search button, it will list all the data stored in the database.
 	•	To add, like for product, simple type in the blank the information of the employee, then click add new If there exists the same employee id, it will pop up a warning. Otherwise, it will add a new employee in the database.
 
-![image]()
+![image](https://github.com/cywang95/InventoryManagingSystem/blob/main/CodeFile/TestImages/employee.png?raw=true)
 
 -----
 
