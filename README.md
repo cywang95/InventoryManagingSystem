@@ -17,7 +17,7 @@ Therefore, we need database system to control the backend information
 
 Our database will consist of two portions: data that represent the employees information and data that represents the product information.
 
-The ``Store`` entity is a store, with attributes <font color=#FF6600>*store_id*, *store_phone*, *store_address*, *store_manager* and *inventory*. </font>
+The ``Store`` entity is a store, with attributes <p style ="colro:orange;">*store_id*, *store_phone*, *store_address*, *store_manager* and *inventory*. </p>
 
 The ``Store`` entity contains two relationships, **Sells** and **Work For**. The relationship **Sell** will connect ``store`` entity to ``Product`` entity and **Work For** will connect ``employee`` entity. 
 
